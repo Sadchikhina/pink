@@ -3,10 +3,85 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Пинк</title>
+    <link href="css/style.css" rel="stylesheet">
     <meta name="keywords" content="">
     <meta name="description" content="">
   </head>
   <body>
-  
+  <header class="page-header">
+    <nav class="main-nav">
+      <a class="page-header__logo"><img class="page-header__logo-img" src="#" alt="логотип"></a>
+      <button class="main-nav__close-button visually-hidden" type="button"></button>
+      <ul class="main-nav__list cite-nav">
+        <li class="cite-nav__item"><a>Главная</a></li>
+        <li class="cite-nav__item"><a href="gallery.html">Фотографии</a></li>
+        <li class="cite-nav__item"><a href="competition.html">Конкурс</a></li>
+        <li class="cite-nav__item"><a href="https://htmlacademy.ru/intensive/adaptive" target="_blank">Html Academy</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="page-main">
+    <header class="page-main__header page-main__header--index">
+      <img class="page-main__img" src="img/iphone-hand-mobile@1x.png" width="" height="" alt="">
+      <h1 class="page-main__title visually-hidden">Что такое приложение Pink</h1>
+    </header>
+    <section class="download-app">
+      <a class="download-app__link" href="https://www.apple.com/ru/itunes/" target="_blank">Скачать приложение</a>
+      <ul class="download-app__list markets-list">
+        <li class="markets-list__item markets-list__item--apple"><a href="https://www.apple.com/ru/ios/app-store/" target="_blank">apple</a></li>
+        <li class="markets-list__item markets-list__item--android"><a href="https://www.android.com/play/" target="_blank">andr</a></li>
+        <li class="markets-list__item markets-list__item--microsoft"><a href="https://www.microsoft.com/store/apps" target="_blank">win</a></li>
+      </ul>
+      <p class="download-app__text">Доступно для iPhone, iPad, Android, Windows Phone, OS X, Windows 8</p>
+    </section>
+    <section class="information">
+      <header class="information__header">
+        <p class="information__question">Устали от серости мегаполиса?</p>
+        <p class="information__answer">Нам есть, что вам предложить!</p>
+      </header>
+      <ul class="information__list ability-list">
+        <li class="ability-list__item">
+          <h2 class="ability-list__title">Поднимает настроение</h2>
+          <p class="ability-list__description">Приложение позволит вам победить осеннюю хандру и депрессию буквально в несколько кликов!</p>
+        </li>
+        <li class="ability-list__item">
+          <h2 class="ability-list__title">Меняет мир вокруг</h2>
+          <p class="ability-list__description">Сделайте снимок и украсьте его смайликом или текстовой подписью, чтобы усилить эффект</p>
+        </li>
+        <li class="ability-list__item">
+          <h2 class="ability-list__title">Заводит новых друзей</h2>
+          <p class="ability-list__description">Ставьте лайки, комментируйте, делитесь фотографиями с друзьями и заводите новых</p>
+        </li>
+      </ul>
+      <img class="information__img" src="img/iphone-screen-mobile@1x.png" alt="">
+    </section>
+    <section class="review">
+      <h3 class="review__title visually-hidden">отзывы</h3>
+      <div class="review__slide1">
+        <b class="review__name">Николай Петров</b>
+        <p class="review__opinion">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      </div>
+      <div class="review__slide2">
+        <b class="review__name">Николай Петров</b>
+        <p class="review__opinion">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      </div>
+      <div class="review__slide3">
+        <b class="review__name">Николай Петров</b>
+        <p class="review__opinion">«Это приложение перевернуло мой мир и позволило по-новому взглянуть на привычные серые вещи! А еще я познакомился со своей будущей женой в комментариях к выложенной фотографии!»</p>
+      </div>
+      <div class="review__pagination">
+        <span class="review__dot review__dot--active" tabindex="0" aria-label="Первый слайд"></span>
+        <span class="review__dot" tabindex="0" aria-label="Второй слайд"></span>
+        <span class="review__dot" tabindex="0" aria-label="Третий слайд"></span>
+      </div>
+    </section>
+    <section class="tariff">
+      <h3 class="tariff__title visually-hidden">тарифы</h3>
+      <div class="tariff__standart">
+        <b class="tariff__name">Стандарт</b>
+        <p class="price">3,99 usd</p>
+      </div>
+    </section>
+  </main>
   </body>
 </html>
