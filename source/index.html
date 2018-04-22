@@ -77,11 +77,53 @@
     </section>
     <section class="tariff">
       <h3 class="tariff__title visually-hidden">тарифы</h3>
-      <div class="tariff__standart">
-        <b class="tariff__name">Стандарт</b>
-        <p class="price">3,99 usd</p>
+      <table class="tariff__standart">
+        <tr class="tariff__row">
+          <th class="tariff__name" colspan="2">Стандарт</th>
+        </tr>
+        <tr class="tariff__row">
+          <th class="tariff__price" colspan="2">3,99 usd</th>
+        </tr>
+        <tr class="tariff__row">
+          <td class="tariff__filter">Розовый фильтр</td>
+          <td class="tariff__mark">п</td>
+        </tr>
+        <tr class="tariff__row">
+          <td class="tariff__smiles">Смайлики</td>
+          <td class="tariff__mark">п</td>
+        </tr>
+        <tr class="tariff__row">
+          <td class="tariff__comments">Комментарии</td>
+          <td class="tariff__mark">п</td>
+        </tr>
+      </table>
+      <div class="tariff__pagination">
+        <span class="tariff__dot tariff__dot--active" tabindex="0" aria-label="Первый слайд"></span>
+        <span class="tariff__dot" tabindex="0" aria-label="Второй слайд"></span>
+        <span class="tariff__dot" tabindex="0" aria-label="Третий слайд"></span>
       </div>
     </section>
   </main>
+  <footer class="page-footer">
+    <section class="contacts">
+      <ul class="contacts__list contact-list">
+        <li class="contact-list__item">
+          <b class="contact-list__intro">Звоните:</b>
+          <a class="contact-list__contact" href="tel:+78125556666">+7 (812) 555-66-66</a>
+        </li>
+        <li class="contact-list__item">
+          <b class="contact-list__intro">Пишите:</b>
+          <a class="contact-list__contact" href="mailto:mail@htmlacademy.ru">mail@htmlacademy.ru</a>
+        </li>
+        <li class="contact-list__item">
+          <b class="contact-list__intro">Приходите в гости:</b>
+          <p class="contact-list__contact">ул. Большая Конюшенная, 19/8</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <img src="img/bg-map-mobile@1x.png" width="" height="" alt="карта">
+    </section>
+  </footer>
   </body>
 </html>
